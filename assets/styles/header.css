@@ -1,0 +1,33 @@
+.navbar{
+    background-image: linear-gradient(to right,#000000, #FF9900);
+    padding-left: 105px;
+    padding-right: 105px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 36px;
+    
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}

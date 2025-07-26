@@ -1,0 +1,114 @@
+
+
+.age-gate {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+h2{
+     color: white;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+ 
+}
+
+.btn.yes {
+  background-color: #ff9900;
+  color: black;
+}
+.btn.yes a{
+    color: black;
+    text-decoration: none
+}
+
+.btn.no {
+  background-color: #555;
+  color: white;
+}
+.btn.no a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.6);
+}
+.btns-container {
+    height: 50px;
+    gap: 200px;
+    justify-content: start;
+    
+}
+.primary-btn {
+   border: 2px solid #002c1d;
+   border-radius: 5px;
+   background-color: black;
+   color: orange;
+   font-weight: bold;
+   font-size: medium;
+   width: 140px;
+   height: 45px;
+}
+.primary-btn a{
+  color: orange;
+  text-decoration: none;
+}
+.secondary-btn {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+    font-size: medium;
+    width: 140px;
+    height: 45px;
+
+}
+.secondary-btn a{
+  color: orange;
+  text-decoration: none;
+}
+.primary-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.secondary-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px){
+    .btns-container {
+        height: 50px;
+        gap: 100px;
+        justify-content: center;
+        
+    }
+}
+    

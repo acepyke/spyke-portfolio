@@ -1,0 +1,25 @@
+p{
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+}
+h4{
+    color: #333;
+    margin-left: 5px;
+}
+.par{
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.container-image img{
+    border-radius: 50%;
+    border: 3px solid orange;
+}

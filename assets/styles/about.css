@@ -1,0 +1,42 @@
+/* About Me Page Styles */
+
+.about-section {
+  padding: 60px 20px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: orange;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
